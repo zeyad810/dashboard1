@@ -1,0 +1,102 @@
+*{
+    padding: 0 !important   ;
+    margin: 0 !important;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background: #001 ;
+    display: flex;
+    flex-grow: 1;
+}
+ul{
+    list-style: none;
+    height: 100%;
+    position: relative;
+}
+.menu{
+    background-color: #123;
+    width: 60px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+.menu:hover{
+    width: 260px;
+
+}
+
+ul li a:hover,.active{
+    background-color: #ffffff55;
+}
+.log{
+    position: absolute;
+    bottom: 0   ;
+    width: 100%;
+    flex-shrink: 0;
+
+}
+.log a{
+    background-color: rgb(135, 13, 13);
+    
+}
+ul li a i{
+    font-size: 32px;
+    padding: 0 10px !important;
+    flex-shrink: 0;
+
+}
+.page{
+    width: 100% ;
+}
+.box{
+    background-color: #123;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box:hover{
+    background-color: #ffffff55;
+}
+.box i{
+    font-size: 40px;
+}
+.data-info{
+    text-align: center;
+}
+.data-info span{
+    font-size: 35px;
+}
+table{
+    border-spacing: 8px !important;
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;    
+}
+td,th{
+    background-color:#123 ;
+    height: 40px;
+    width: 80px;
+
+}
+th{
+    background-color: #0080ff;
+    margin-bottom: 15px;
+}
+.price{
+    background-color: gold;
+    color: #000;
+    padding: 8px !important;
+}
+.count{
+    background-color: green;
+    padding: 8px !important;
+}
